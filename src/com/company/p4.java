@@ -18,9 +18,9 @@ public class p4 {
                 sum=sum+x;
             x=x/10;
         }
-        System.out.println("Suma cifrelor pare" +sum);
+        System.out.println("Suma cifrelor pare " +sum);
     }
-}
+
 
     static void method2(int x){
         int sum=0;
@@ -30,6 +30,6 @@ public class p4 {
                 sum=sum+x;
             x=x/10;
         }
-        System.out.println("Suma cifrelor impare" +sum);
+        System.out.println("Suma cifrelor impare " +sum);
     }
 }
