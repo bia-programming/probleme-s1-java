@@ -11,11 +11,11 @@ public class p4 {
     }
 
     static void method1(int x){
-        int sum=0;
+        int sum=0,mod;
         while(x!=0){
-            x=x%10;
-            if(x%2==0)
-                sum=sum+x;
+            mod=x%10;
+            if(mod%2==0)
+                sum=sum+mod;
             x=x/10;
         }
         System.out.println("Suma cifrelor pare " +sum);
@@ -23,11 +23,11 @@ public class p4 {
 
 
     static void method2(int x){
-        int sum=0;
+        int sum=0,mod;
         while(x!=0){
-            x=x%10;
-            if(x%2==1)
-                sum=sum+x;
+            mod=x%10;
+            if(mod%2==1)
+                sum=sum+mod;
             x=x/10;
         }
         System.out.println("Suma cifrelor impare " +sum);
